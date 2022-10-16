@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_Output"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="14dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/et_Value1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_Value1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="50dp"
+        android:ems="10"
+        android:hint="Value1"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/bt_Plus"
+        app:layout_constraintEnd_toStartOf="@+id/et_Value2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Output" />
+
+    <EditText
+        android:id="@+id/et_Value2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="107dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Value2"
+        app:layout_constraintBottom_toBottomOf="@+id/et_Value1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et_Value1"
+        app:layout_constraintTop_toTopOf="@+id/et_Value1" />
+
+    <Button
+        android:id="@+id/bt_Plus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="357dp"
+        android:text="+"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt_Minus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_Value1" />
+
+    <Button
+        android:id="@+id/bt_Minus"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="129dp"
+        android:text="-"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_Plus"
+        app:layout_constraintTop_toBottomOf="@+id/et_Value2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

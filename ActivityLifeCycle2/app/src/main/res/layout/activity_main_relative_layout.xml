@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgTonyStark"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:src="@drawable/tony_stark_new" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtLayoutHeader"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="6dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_toRightOf="@id/imgTonyStark"-->
+<!--        android:padding="9dp"-->
+<!--        android:text="Tony Stark"-->
+<!--        android:textColor="#CD5C5C"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtLayoutSubHeader"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="175dp"-->
+<!--        android:layout_below="@id/txtLayoutHeader"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="tony@starkindustries.com"-->
+<!--        android:textColor="#E9967A"-->
+<!--        android:textSize="15sp"-->
+<!--        android:textStyle="italic" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ContactNumber"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="8dp"-->
+<!--        android:text="+91 1234567890"-->
+<!--        android:textColor="#E9967A"-->
+<!--        android:layout_marginLeft="175dp"-->
+<!--        android:layout_below="@id/txtLayoutSubHeader"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnExitApp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:background="#FF0000"-->
+<!--        android:text="Exit app"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold" />-->
+<!--    <Button-->
+<!--        android:id="@+id/btnMoreInfo"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/imgTonyStark"-->
+<!--        android:text="More Information"-->
+<!--        android:background="#00FF00"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/txtLayoutSubHeader"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:hint="Enter your name here"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:layout_above="@id/btnExitApp"-->
+<!--        />-->
+
+</RelativeLayout>

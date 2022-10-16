@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B5998"
+    android:layout_centerHorizontal="true">
+
+<ImageView
+    android:id="@+id/imgLogo"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:src="@drawable/facebook_logo"
+    android:layout_marginLeft="145dp"
+    android:layout_marginTop="120dp"
+    android:layout_centerHorizontal="true"
+    />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username or Email"
+        android:textColor="#C0C0C0"
+        android:textSize="20sp"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="#C0C0C0"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_below="@id/password"
+        android:background="#1877F2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up for Facebook"
+        android:textColor="#FFFFFF"
+        android:layout_above="@id/forgotPass"
+        android:layout_marginLeft="130sp"
+        android:layout_centerHorizontal="true"
+
+/>
+    <TextView
+        android:id="@+id/forgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="130sp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+
+        />
+</RelativeLayout>
