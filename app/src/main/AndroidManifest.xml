@@ -13,7 +13,90 @@
         android:theme="@style/Theme.ACADIA"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.staff.StaffData"
+            android:exported="false" />
+        <activity
+            android:name=".activity.staff.StaffAdd"
+            android:exported="false" />
+        <activity
+            android:name=".activity.staff.StudentList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.staff.StaffList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.Classroom"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.Community"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.JoinNewClassroom"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.StudentHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.StudentProfile"
+            android:exported="false"
+            android:theme="@style/Theme.ACADIA" />
+        <activity
+            android:name=".activity.staff.StaffProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activity.staff.StaffHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.AssigmentUpload"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.ClassroomChat"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.QuizList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.AssignmentList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.AttendenceReport"
+            android:exported="false" />
+        <activity
+            android:name=".activity.student.ClassroomList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Home"
+            android:exported="false"
+            android:theme="@style/Theme.ACADIA" />
+        <activity
+            android:name=".activity.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Login"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

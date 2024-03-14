@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.student.ClassroomList">
+
+    <TextView
+        android:id="@+id/txt_classroom_attendence_report"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#3F7CAC"
+        android:text="Classroom Name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_classroom_attendence_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="38dp"
+        android:text="Attendence and report"
+        app:layout_constraintStart_toStartOf="@+id/txt_classroom_attendence_report"
+        app:layout_constraintTop_toBottomOf="@+id/txt_classroom_attendence_report" />
+
+    <Button
+        android:id="@+id/txt_classroom_assignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Assignment"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_classroom_quiz"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_classroom_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="85dp"
+        android:text="Quiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_classroom_attendence_report" />
+
+    <Button
+        android:id="@+id/btn_classroom_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginBottom="16dp"
+        android:text="Classroom Chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
