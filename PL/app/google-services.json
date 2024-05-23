@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "112642403882",
+    "project_id": "pl-tut",
+    "storage_bucket": "pl-tut.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112642403882:android:b55b504c7b2c068ca11d53",
+        "android_client_info": {
+          "package_name": "com.example.pl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_MkTTVh2lwC4P2ZnPXompTDA15H-4tHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
