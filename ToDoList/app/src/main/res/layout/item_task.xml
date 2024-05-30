@@ -6,7 +6,7 @@
     android:padding="8dp">
 
     <CheckBox
-        android:id="@+id/checkBoxCompleted"
+        android:id="@+id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -17,5 +17,12 @@
         android:layout_weight="1"
         android:paddingStart="8dp"
         android:textAppearance="?android:textAppearanceMedium" />
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_close"
+        />
 
 </LinearLayout>

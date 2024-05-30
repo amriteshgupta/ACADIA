@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.pl.databinding.ActivityMainBinding
 import com.example.pl.databinding.ActivityStartBinding
+import com.google.firebase.database.FirebaseDatabase
 
 class StartActivity : AppCompatActivity() {
 

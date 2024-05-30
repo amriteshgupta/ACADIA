@@ -18,7 +18,6 @@ class Register : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         auth = FirebaseAuth.getInstance()
 
         binding.btnregister.setOnClickListener {

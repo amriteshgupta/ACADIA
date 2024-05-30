@@ -18,7 +18,7 @@ class Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-     auth=FirebaseAuth.getInstance()
+        auth=FirebaseAuth.getInstance()
         binding.btnLogin.setOnClickListener {
             val email = binding.etEmail.text.toString()
             val password = binding.etPassword.text.toString()

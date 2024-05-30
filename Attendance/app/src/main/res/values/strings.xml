@@ -13,4 +13,7 @@
     <string name="favourites_fragment">Favourites Fragment</string>
     <string name="profile_fragment">Profile Fragment</string>
     <string name="about_app_fragment">About App Fragment</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="enter_password_string">Enter Password</string>
+    <string name="enter_your_email_string">Enter your Email</string>
 </resources>

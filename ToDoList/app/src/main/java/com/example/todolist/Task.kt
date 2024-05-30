@@ -1,4 +1,2 @@
 package com.example.todolist
-
-class Task {
-}
+data class Task(val id: Int, val title: String, var isCompleted: Boolean)
